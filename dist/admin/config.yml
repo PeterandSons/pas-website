@@ -1,0 +1,87 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads" # Where uploaded images will be stored
+public_folder: "/uploads"
+
+collections:
+  - name: "games"
+    label: "Games"
+    folder: "content/games"
+    create: true
+    format: json
+    extension: "json"
+    slug: "{{gameId}}"
+    fields:
+      - { name: "title", label: "Game Title", widget: "string" }
+      - { name: "gameId", label: "Game ID", widget: "string" }
+      - { name: "releaseDate", label: "Release Date", widget: "datetime" }
+      - { name: "description", label: "Description", widget: "text" }
+      - { name: "thumbnailBackground", label: "Thumbnail Background", widget: "image" }
+      - { name: "thumbnailLogo", label: "Thumbnail Logo", widget: "image" }
+      - { name: "bannerBackground", label: "Banner Background", widget: "image" }
+      - { name: "bannerLogo", label: "Banner Logo", widget: "image" }
+
+  - name: "jobs"
+    label: "Jobs"
+    folder: "content/jobs"
+    create: true
+    format: json
+    extension: "json"
+    slug: "{{title}}"
+    fields:
+      - { name: "title", label: "Job Title", widget: "string" }
+      - { name: "location", label: "Location", widget: "string" }
+      - { name: "type", label: "Job Type", widget: "string" }
+      - { name: "description", label: "Description", widget: "markdown" }
+
+  - name: "news"
+    label: "News"
+    folder: "content/news"
+    create: true
+    format: json
+    extension: "json"
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "slug", label: "Slug", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "image", label: "News Image", widget: "image" }
+      - { name: "excerpt", label: "Excerpt", widget: "text" }
+      - { name: "content", label: "Content", widget: "markdown" }
+      - { name: "fullContent", label: "Full Content", widget: "markdown" }
+
+  - name: "partners"
+    label: "Partners"
+    folder: "content/partners"
+    create: true
+    format: json
+    extension: "json"
+    slug: "{{name}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }      
+      - label: "Partners"
+        name: "partners"
+        widget: "list"
+        fields:
+          - { name: "name", label: "Partner Name", widget: "string" }
+          - { name: "logo", label: "Logo", widget: "image" }
+          - { name: "website", label: "Website", widget: "string" }
+
+  - name: "friends"
+    label: "Friends"
+    folder: "content/partners"
+    create: true
+    format: json
+    extension: "json"
+    slug: "{{name}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - label: "Friends"
+        name: "friends"
+        widget: "list"
+        fields:
+          - { name: "name", label: "Friend Name", widget: "string" }
+          - { name: "logo", label: "Logo", widget: "image" }
+          - { name: "website", label: "Website", widget: "string" }

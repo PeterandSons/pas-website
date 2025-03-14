@@ -6,6 +6,19 @@ import { getGames } from '../utils/content.js';
 let currentPage = 1;
 const itemsPerPage = 15;
 
+const generateGameUrl = (gameId) => {
+  const uuid = Math.random().toString(36).substring(2) + Date.now().toString(36);
+  const baseUrl = 'https://cdn-demo.spinart.cloud/peterandsons/launcher/index.html';
+  const params = new URLSearchParams({
+    server: 'https://demo.spinart.cloud',
+    wallet: 'demo',
+    operator: 'demo',
+    gameCode: gameId,
+    key: uuid
+  });
+  return `${baseUrl}?${params.toString()}`;
+};
+
 function createHeroSlider(games) {
   const gamesWithBanners = games
     .filter(game => game.bannerBackground && game.bannerBackground !== '' && game.bannerLogo && game.bannerLogo !== '')
@@ -53,7 +66,7 @@ function createGameCard(game) {
             MORE
           </button>
           <div class="action-buttons hidden flex-col gap-4 w-48">
-            <button class="w-full py-2 border border-white text-white hover:bg-white hover:text-black transition-all duration-300">
+            <button class="play-btn w-full py-2 border border-white text-white hover:bg-white hover:text-black transition-all duration-300" data-game-id="${game.gameId}">
               PLAY
             </button>
             <button class="w-full py-2 border border-white text-white hover:bg-white hover:text-black transition-all duration-300">
@@ -118,6 +131,7 @@ function setupGameButtons() {
     const buttonContainer = card.querySelector('.game-buttons');
     const moreBtn = buttonContainer.querySelector('.more-btn');
     const actionButtons = buttonContainer.querySelector('.action-buttons');
+    const playBtn = buttonContainer.querySelector('.play-btn');
 
     moreBtn.addEventListener('click', (e) => {
       e.stopPropagation();
@@ -126,7 +140,6 @@ function setupGameButtons() {
       buttonContainer.dataset.state = 'expanded';
     });
 
-    // Keep buttons visible when hovering over them
     actionButtons.addEventListener('mouseenter', () => {
       if (buttonContainer.dataset.state === 'expanded') {
         moreBtn.style.display = 'none';
@@ -134,7 +147,6 @@ function setupGameButtons() {
       }
     });
 
-    // Reset to initial state when mouse leaves the card
     card.addEventListener('mouseleave', () => {
       if (buttonContainer.dataset.state === 'expanded') {
         moreBtn.style.display = 'block';
@@ -142,6 +154,17 @@ function setupGameButtons() {
         buttonContainer.dataset.state = 'initial';
       }
     });
+
+    if (playBtn) {
+      playBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const gameId = e.target.getAttribute('data-game-id');
+        if (gameId) {
+          const gameUrl = generateGameUrl(gameId);
+          window.open(gameUrl, '_blank');
+        }
+      });
+    }
   });
 }
 
