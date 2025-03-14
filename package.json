@@ -15,6 +15,7 @@
     "vite": "^5.4.2"
   },
   "dependencies": {
-    "navigo": "^8.11.1"
+    "navigo": "^8.11.1",
+    "netlify-cms-app": "^2.15.72"
   }
 }
