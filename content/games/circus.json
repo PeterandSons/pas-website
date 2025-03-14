@@ -3,8 +3,8 @@
   "gameId": "circus",
   "releaseDate": "2020-08-03",
   "description": "Step right up to the circus in this slot featuring expanding wilds and a thrilling bonus game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/08/DCirque_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/08/DCirque_Logo.png",
+  "thumbnailBackground": "/uploads/DCirque_Background.png",
+  "thumbnailLogo": "/uploads/DCirque_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

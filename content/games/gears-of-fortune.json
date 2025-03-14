@@ -3,8 +3,8 @@
   "gameId": "gears-of-fortune",
   "releaseDate": "2025-03-06",
   "description": "Turn the gears of fate in this steampunk-inspired slot adventure.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/10/Steamworks_ThumbnailBackground.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2025/01/Steamworks_ThumbnailLogo-1.png",
+  "thumbnailBackground": "/uploads/Steamworks_ThumbnailBackground.png",
+  "thumbnailLogo": "/uploads/Steamworks_ThumbnailLogo-1.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

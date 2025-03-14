@@ -3,8 +3,8 @@
   "gameId": "barbarossa-revenge",
   "releaseDate": "2025-02-13",
   "description": "Join Barbarossa on a quest for revenge in this action-packed slot game with thrilling features.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/09/BarbarossaRevenge_ThumbnailBackground.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/09/BarbarossaRevenge_ThumbnailLogo.png",
-  "bannerBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/09/BarbarossaRevenge_Banner-1.png",
-  "bannerLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/09/2.BarbarossaRevenge_Logo.png"
+  "thumbnailBackground": "/uploads/BarbarossaRevenge_ThumbnailBackground.png",
+  "thumbnailLogo": "/uploads/BarbarossaRevenge_ThumbnailLogo.png",
+  "bannerBackground": "/uploads/BarbarossaRevenge_Banner-1.png",
+  "bannerLogo": "/uploads/2.BarbarossaRevenge_Logo.png"
 }

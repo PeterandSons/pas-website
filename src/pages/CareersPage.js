@@ -15,13 +15,13 @@ function createSkewedDivider(fromColor, toColor, direction = 'up') {
 }
 
 const jobIcons = {
-  'Account Manager': 'https://peterandsonsgames.com/wp-content/uploads/2024/08/Job-image-4.png',
-  '2D Spine Animator': 'https://peterandsonsgames.com/wp-content/uploads/2023/09/Job-image-2.png',
-  'Full Stack Developer': 'https://peterandsonsgames.com/wp-content/uploads/2023/09/Job-image-1.png',
-  'Marketing Artist': 'https://peterandsonsgames.com/wp-content/uploads/2023/09/Job-image-2.png',
-  'Designer / Mathematician': 'https://peterandsonsgames.com/wp-content/uploads/2023/09/Job-image-3.png',
-  'Game Programmer': 'https://peterandsonsgames.com/wp-content/uploads/2023/09/Job-image-1.png',
-  'Senior Artist': 'https://peterandsonsgames.com/wp-content/uploads/2023/09/Job-image-2.png'
+  'Account Manager': ' /uploads/Job-image-4.png',
+  '2D Spine Animator': '/uploads/Job-image-2.png',
+  'Full Stack Developer': '/uploads/Job-image-1.png',
+  'Marketing Artist': '/uploads/Job-image-2.png',
+  'Designer / Mathematician': '/uploads/Job-image-3.png',
+  'Game Programmer': '/uploads/Job-image-1.png',
+  'Senior Artist': '/uploads/Job-image-2.png'
 };
 
 function createJobCard(job) {
@@ -67,7 +67,7 @@ export function renderCareersPage() {
     ${createHeader()}
     <main class="pt-32 bg-black">
       <!-- Hero Banner -->
-      <div class="py-0 mb-0 bg-center bg-cover relative overflow-hidden" style="background-image: url('https://peterandsonsgames.com/wp-content/uploads/2023/08/Header-image-main-02.png'); background-size: 100% 200%; transform: scaleY(-1)">
+      <div class="py-0 mb-0 bg-center bg-cover relative overflow-hidden" style="background-image: url('/uploads/Header-image-main-02.png'); background-size: 100% 200%; transform: scaleY(-1)">
         <div class="container mx-0 px-12 relative" style="transform: scaleY(-1)">
           <div class="flex justify-between items-center">
             <h1 class="text-[#FFC900] font-bold tracking-wider leading-none">
@@ -76,7 +76,7 @@ export function renderCareersPage() {
             </h1>
             <div class="character-container">
               <img 
-                src="https://peterandsonsgames.com/wp-content/uploads/2023/10/abrakadabra_dood.png" 
+                src="/uploads/abrakadabra_dood.png" 
                 alt="Character" 
                 class="w-[800px] h-auto transform translate-y-full animate-slide-up"
               >
@@ -108,7 +108,7 @@ export function renderCareersPage() {
               </p>
             </div>
             <div>
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2023/09/careers-rhino.png" alt="Peter & Sons Rhino" class="w-full h-auto">
+              <img src="/uploads/careers-rhino.png" alt="Peter & Sons Rhino" class="w-full h-auto">
             </div>
           </div>
         </div>

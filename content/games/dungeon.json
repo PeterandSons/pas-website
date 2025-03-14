@@ -3,8 +3,8 @@
   "gameId": "dungeon",
   "releaseDate": "2022-11-21",
   "description": "Climb the mysterious dungeon tower in this thrilling slot adventure.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/08/DungeonTower_FeatureBackground-1.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/08/DungeonTower_Logo-2.png",
+  "thumbnailBackground": "/uploads/DungeonTower_FeatureBackground-1.png",
+  "thumbnailLogo": "/uploads/DungeonTower_Logo-2.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

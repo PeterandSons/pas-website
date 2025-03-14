@@ -83,7 +83,7 @@ export function renderContactPage() {
     ${createHeader()}
     <main class="pt-32 bg-black">
       <!-- Hero Banner -->
-      <div class="py-20 mb-20 bg-center bg-cover" style="background-image: url('https://peterandsonsgames.com/wp-content/uploads/2023/08/Footer-image-main-03-03-2.png'); background-size: 100% 100%; transform: scaleY(-1)">
+      <div class="py-20 mb-20 bg-center bg-cover" style="background-image: url('/uploads/Footer-image-main-03-03-2.png'); background-size: 100% 100%; transform: scaleY(-1)">
         <div class="container mx-auto px-12 text-center" style="transform: scaleY(-1)">
           <h1 class="text-white text-5xl font-bold tracking-wider uppercase">CONTACT</h1>
         </div>

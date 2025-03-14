@@ -3,8 +3,8 @@
   "gameId": "robin",
   "releaseDate": "2021-04-26",
   "description": "Join Robin Hood and his band of Merry Men in this slot filled with free spins and multipliers.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/08/RobinSherwoodMarauders_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/08/RobinSherwoodMarauders_Logo.png",
+  "thumbnailBackground": "/uploads/RobinSherwoodMarauders_Background.png",
+  "thumbnailLogo": "/uploads/RobinSherwoodMarauders_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

@@ -4,7 +4,7 @@ export function createHeader() {
       <nav class="container mx-auto px-12 py-8">
         <div class="flex justify-between items-center">
           <a href="/" class="w-52" data-navigo>
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/PS-Logo-02.png" alt="Peter and Sons Games" class="w-full">
+            <img src="/uploads/PS-Logo-02.png" alt="Peter and Sons Games" class="w-full">
           </a>
           <button class="hamburger-menu lg:hidden" aria-label="Menu">
             <span></span>

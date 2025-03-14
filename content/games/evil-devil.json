@@ -3,8 +3,8 @@
   "gameId": "evil-devil",
   "releaseDate": "2024-09-19",
   "description": "Face off against the forces of evil in this devilishly entertaining slot game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/08/LiveDead_ThumbnailBackground.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/08/LiveDead_ThumbnailLogo.png",
+  "thumbnailBackground": "/uploads/LiveDead_ThumbnailBackground.png",
+  "thumbnailLogo": "/uploads/LiveDead_ThumbnailLogo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

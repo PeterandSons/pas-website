@@ -3,8 +3,8 @@
   "gameId": "coin-blox",
   "releaseDate": "2024-04-18",
   "description": "Stack your way to riches in this innovative block-stacking slot game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/02/CoinBlox_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/02/CoinBlox_Logo.png",
+  "thumbnailBackground": "/uploads/CoinBlox_Background.png",
+  "thumbnailLogo": "/uploads/CoinBlox_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

@@ -3,8 +3,8 @@
   "gameId": "cauldron",
   "releaseDate": "2021-05-13",
   "description": "Stir up some magic in this enchanting slot featuring expanding wilds and a thrilling bonus game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/08/Cauldron_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/08/Cauldron_Logo.png",
+  "thumbnailBackground": "/uploads/Cauldron_Background.png",
+  "thumbnailLogo": "/uploads/Cauldron_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

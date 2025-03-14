@@ -3,8 +3,8 @@
   "gameId": "pop-cop",
   "releaseDate": "2024-02-15",
   "description": "Chase down wins in this action-packed police-themed slot game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/01/PopCop_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/01/PopCop_Logo.png",
-  "bannerBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/01/PopCop_Background.png",
-  "bannerLogo": "https://peterandsonsgames.com/wp-content/uploads/2025/02/PotionPower_BannerLogo-1.png"
+  "thumbnailBackground": "/uploads/PopCop_Background.png",
+  "thumbnailLogo": "/uploads/PopCop_Logo.png",
+  "bannerBackground": "/uploads/PopCop_Background.png",
+  "bannerLogo": "/uploads/PotionPower_BannerLogo-1.png"
 }

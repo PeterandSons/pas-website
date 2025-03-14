@@ -3,8 +3,8 @@
   "gameId": "greedy-alice",
   "releaseDate": "2024-12-10",
   "description": "Join Alice in a whimsical adventure filled with treasures and surprises in this enchanting slot game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/11/GreedyAlice_ThumbnailBackground.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/11/GreedyAlice_ThumbnailLogo.png",
-  "bannerBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/11/GreedAlice_Banner.png",
-  "bannerLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/11/GreedAlice_BannerLogo-1.png"
+  "thumbnailBackground": "/uploads/GreedyAlice_ThumbnailBackground.png",
+  "thumbnailLogo": "/uploads/GreedyAlice_ThumbnailLogo.png",
+  "bannerBackground": "/uploads/GreedAlice_Banner.png",
+  "bannerLogo": "/uploads/GreedAlice_BannerLogo-1.png"
 }

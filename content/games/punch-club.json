@@ -3,8 +3,8 @@
   "gameId": "punch-club",
   "releaseDate": "2020-11-26",
   "description": "Step into the ring and train your fighter to become the champion in this engaging slot game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/08/PunchClub_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/08/PunchClub_Logo.png",
+  "thumbnailBackground": "/uploads/PunchClub_Background.png",
+  "thumbnailLogo": "/uploads/PunchClub_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

@@ -3,8 +3,8 @@
   "gameId": "sheriff-colt",
   "releaseDate": "2020-10-15",
   "description": "Enforce the law in the Wild West as Sheriff Colt, navigating duels and desperados in this slot game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/08/SheriffColt_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/08/SheriffColt_Logo.png",
+  "thumbnailBackground": "/uploads/SheriffColt_Background.png",
+  "thumbnailLogo": "/uploads/SheriffColt_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

@@ -3,8 +3,8 @@
   "gameId": "animafia",
   "releaseDate": "2023-11-14",
   "description": "Join the animal mafia in this quirky and exciting slot adventure.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/09/Animafia_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/09/AnimafiaLogo.png",
+  "thumbnailBackground": "/uploads/Animafia_Background.png",
+  "thumbnailLogo": "/uploads/AnimafiaLogo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

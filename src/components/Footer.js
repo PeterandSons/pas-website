@@ -4,7 +4,7 @@ export function createFooter() {
       <div class="container mx-auto px-12">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
           <div class="md:col-span-2">
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/P_S-Monogram-Purple.png" 
+            <img src="/uploads/P_S-Monogram-Purple.png" 
                  alt="Peter & Sons Monogram" 
                  class="w-24 h-24 mb-6">
             <p class="text-white text-sm font-light mb-4">We are a passionate team with a fresh-new vision for slots.</p>
@@ -22,22 +22,22 @@ export function createFooter() {
             <h3 class="text-white font-bold mb-4">Licenses</h3>
             <div class="grid grid-cols-3 gap-4 mb-4">
               <div class="flex items-center">
-                <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/License_GC.png" 
+                <img src="/uploads/License_GC.png" 
                      alt="License GC" class="w-full h-auto">
               </div>
               <div class="flex items-center">
-                <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/License_LOTBA.png" 
+                <img src="/uploads/License_LOTBA.png" 
                      alt="License LOTBA" class="w-full h-auto">
               </div>
               <div class="flex items-center">
-                <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/License_Spelinspektionen.png" 
+                <img src="/uploads/License_Spelinspektionen.png" 
                      alt="License Spelinspektionen" class="w-full h-auto max-h-[60px] object-contain">
               </div>
             </div>
             <div class="flex flex-col gap-4">
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/License_AGCO.png" 
+              <img src="/uploads/License_AGCO.png" 
                    alt="License AGCO" class="w-full max-w-[200px] h-auto">
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/malta-gaming-authority-mga-vector-logo-3.png" 
+              <img src="/uploads/malta-gaming-authority-mga-vector-logo-3.png" 
                    alt="Malta Gaming Authority" class="w-full max-w-[200px] h-auto">
             </div>
           </div>
@@ -67,7 +67,7 @@ export function createFooter() {
                 </svg>
               </a>
             </div>
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/08/GambleAwareLogo.png" 
+            <img src="/uploads/GambleAwareLogo.png" 
                  alt="Gamble Aware" class="w-32 h-auto">
           </div>
         </div>

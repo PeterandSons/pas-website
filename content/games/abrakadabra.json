@@ -3,8 +3,8 @@
   "gameId": "abrakadabra",
   "releaseDate": "2023-07-27",
   "description": "Experience magical wins in this enchanting slot game filled with mystical features.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/09/Abracadabra_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/09/Abracadabra_Logo.png",
+  "thumbnailBackground": "/uploads/Abracadabra_Background.png",
+  "thumbnailLogo": "/uploads/Abracadabra_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

@@ -3,8 +3,8 @@
   "gameId": "workshop",
   "releaseDate": "2025-10-24",
   "description": "Experience the industrial revolution in this steampunk-themed slot with gear-driven reels and inventive features.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2024/10/Steamworks_ThumbnailBackground.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2024/10/Steamworks_ThumbnailLogo.png",
+  "thumbnailBackground": "/uploads/Steamworks_ThumbnailBackground.png",
+  "thumbnailLogo": "/uploads/Steamworks_ThumbnailLogo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

@@ -3,8 +3,8 @@
   "gameId": "ghostfather",
   "releaseDate": "2024-03-19",
   "description": "Enter the supernatural world of the Ghost Father in this haunting slot game.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/10/GhostFather_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/10/Ghostfather_Logo.png",
+  "thumbnailBackground": "/uploads/GhostFather_Background.png",
+  "thumbnailLogo": "/uploads/Ghostfather_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

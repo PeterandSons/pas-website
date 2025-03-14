@@ -3,8 +3,8 @@
   "gameId": "wild-bard",
   "releaseDate": "2021-02-25",
   "description": "Immerse yourself in a world of poetry and adventure with the Wild Bard, offering free spins and expanding wilds.",
-  "thumbnailBackground": "https://peterandsonsgames.com/wp-content/uploads/2023/08/WildBard_Background.png",
-  "thumbnailLogo": "https://peterandsonsgames.com/wp-content/uploads/2023/08/WildBard_Logo.png",
+  "thumbnailBackground": "/uploads/WildBard_Background.png",
+  "thumbnailLogo": "/uploads/WildBard_Logo.png",
   "bannerBackground": "",
   "bannerLogo": ""
 }

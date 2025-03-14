@@ -19,7 +19,7 @@ export function renderAboutPage() {
     <main class="pt-24">
       <!-- Hero Banner -->
       <section class="relative h-[600px] bg-center bg-cover overflow-hidden" 
-           style="background-image: url('https://peterandsonsgames.com/wp-content/uploads/2023/08/Header-image-main-02.png')">
+           style="background-image: url('/uploads/Header-image-main-02.png')">
         <div class="container mx-auto px-12 h-full flex items-center relative">
           <h1 class="text-[#FFC900] font-bold tracking-wider leading-none z-10">
             <span class="block text-6xl">BE THE</span>
@@ -27,21 +27,21 @@ export function renderAboutPage() {
           </h1>
           <div class="absolute inset-0 overflow-hidden">
             <!-- Back row characters -->
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/10/About-Characters-33-1508x2048.png" 
+            <img src="/uploads/About-Characters-33-1508x2048.png" 
                  alt="Character" 
                  class="about-character back-left">
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/09/About-Header-Image-2.png" 
+            <img src="/uploads/About-Header-Image-2.png" 
                  alt="Character" 
                  class="about-character back-right">
             
             <!-- Front row characters -->
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/10/About-Characters-34-1667x2048.png" 
+            <img src="/uploads/About-Characters-34-1667x2048.png" 
                  alt="Character" 
                  class="about-character front-left">
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/09/About-Header-Image-1.png" 
+            <img src="/uploads/About-Header-Image-1.png" 
                  alt="Character" 
                  class="about-character front-center">
-            <img src="https://peterandsonsgames.com/wp-content/uploads/2023/09/About-Header-Image-3.png" 
+            <img src="/uploads/About-Header-Image-3.png" 
                  alt="Character" 
                  class="about-character front-right">
           </div>
@@ -134,7 +134,7 @@ export function renderAboutPage() {
         <div class="container mx-auto px-12">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2023/09/gamble-aware.png" 
+              <img src="/uploads/gamble-aware.png" 
                    alt="Gamble Aware" class="w-full max-w-[300px]">
             </div>
             <div>
@@ -160,7 +160,7 @@ export function renderAboutPage() {
           <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
             <!-- Column 1 -->
             <div class="text-center">
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2024/01/logo-3-1024x1024.png" 
+              <img src="/uploads/logo-3-1024x1024.png" 
                    alt="Remote Game Server" class="w-24 h-24 mx-auto mb-8">
               <h3 class="text-white text-2xl font-bold mb-6">Remote Game Server</h3>
               <ul class="text-white text-[14px] text-left list-disc pl-6 space-y-2">
@@ -172,7 +172,7 @@ export function renderAboutPage() {
 
             <!-- Column 2 -->
             <div class="text-center">
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2024/01/cloud-1-1024x1024.png" 
+              <img src="/uploads/cloud-1-1024x1024.png" 
                    alt="Cloud Infrastructure" class="w-24 h-24 mx-auto mb-8">
               <h3 class="text-white text-2xl font-bold mb-6">Cloud Infrastructure</h3>
               <ul class="text-white text-[14px] text-left list-disc pl-6 space-y-2">
@@ -184,7 +184,7 @@ export function renderAboutPage() {
 
             <!-- Column 3 -->
             <div class="text-center">
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2024/01/gamification-tools-1024x1024.png" 
+              <img src="/uploads/gamification-tools-1024x1024.png" 
                    alt="Gamification Tools" class="w-24 h-24 mx-auto mb-8">
               <h3 class="text-white text-2xl font-bold mb-6">Gamification Tools</h3>
               <p class="text-white text-[14px] leading-relaxed">

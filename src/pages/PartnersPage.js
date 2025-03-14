@@ -83,7 +83,7 @@ export function renderPartnersPage() {
     ${createHeader()}
     <main class="pt-32 bg-black">
       <!-- Hero Banner -->
-      <div class="news-title-container py-20 mb-20 bg-center bg-cover" style="background-image: url('https://peterandsonsgames.com/wp-content/uploads/2023/08/Footer-image-main-03-03-2.png'); background-size: 100% 100%; transform: scaleY(-1)">
+      <div class="news-title-container py-20 mb-20 bg-center bg-cover" style="background-image: url('/uploads/Footer-image-main-03-03-2.png'); background-size: 100% 100%; transform: scaleY(-1)">
         <div class="container mx-auto px-12 text-center" style="transform: scaleY(-1)">
           <h1 class="text-white text-5xl font-bold tracking-wider uppercase">Partners</h1>
         </div>
@@ -115,7 +115,7 @@ export function renderPartnersPage() {
           <p class="text-white text-lg text-center mb-16">Partner with us for early access to marketing materials, latest news, and more!</p>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2023/09/affiliates-page-image.png" 
+              <img src="/uploads/affiliates-page-image.png" 
                    alt="Contact Us" class="w-full h-auto">
             </div>
             <div class="bg-[#251e34] p-8 rounded-lg">
@@ -133,7 +133,7 @@ export function renderPartnersPage() {
         <div class="container mx-auto px-12">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="https://peterandsonsgames.com/wp-content/uploads/2023/10/White-1-1024x196.png" 
+              <img src="/uploads/White-1-1024x196.png" 
                    alt="Brand Assets" class="w-full h-auto">
             </div>
             <div class="flex flex-col space-y-4">
