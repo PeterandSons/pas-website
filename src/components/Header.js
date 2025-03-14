@@ -1,7 +1,7 @@
 export function createHeader() {
   return `
     <header class="fixed w-full bg-black/95 backdrop-blur-sm z-50">
-      <nav class="container mx-auto px-12 py-8">
+      <nav class="container mx-auto px-12 py-2">
         <div class="flex justify-between items-center">
           <a href="/" class="w-52" data-navigo>
             <img src="/uploads/PS-Logo-02.png" alt="Peter and Sons Games" class="w-full">

@@ -104,8 +104,8 @@ export function renderGamesPage() {
     ${createHeader()}
     <main class="pt-24 bg-black">
       ${createHeroSlider(games)}
-      <div class="container mx-auto px-12 py-20">
-        <div class="games-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="w-full py-20"> <!-- Removed container mx-auto px-12 -->
+        <div class="games-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0"> <!-- Removed gap-8 -->
           ${games.slice(0, itemsPerPage).map(game => createGameCard(game)).join('')}
         </div>
         ${games.length > itemsPerPage ? `
