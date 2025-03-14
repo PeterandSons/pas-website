@@ -6,10 +6,10 @@
   <title>Netlify CMS</title>
 </head>
 <body>
-  <!-- Netlify CMS will load inside this div -->
-  <script src="https://unpkg.com/netlify-cms-app@latest/dist/netlify-cms-app.js"></script>
-  <script>
-    window.CMS.init();
+  <!-- Admin Panel -->
+  <script type="module">
+    import CMS from "https://cdn.jsdelivr.net/npm/netlify-cms-app@^2.12.19/dist/netlify-cms-app.es.js";
+    CMS.init();
   </script>
 </body>
 </html>
