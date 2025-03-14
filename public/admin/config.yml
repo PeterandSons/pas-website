@@ -60,6 +60,7 @@ collections:
     extension: "json"
     slug: "{{name}}"
     fields:
+      - { name: "title", label: "Title", widget: "string" }      
       - label: "Partners"
         name: "partners"
         widget: "list"
@@ -76,6 +77,7 @@ collections:
     extension: "json"
     slug: "{{name}}"
     fields:
+      - { name: "title", label: "Title", widget: "string" }
       - label: "Friends"
         name: "friends"
         widget: "list"
