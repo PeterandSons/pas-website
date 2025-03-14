@@ -19,12 +19,15 @@ function createLogoGrid(items, currentCount = 10) {
     <div class="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
       ${items.slice(0, currentCount).map(item => `
         <div class="flex items-center justify-center">
-          <img src="${item.logo}" alt="${item.name}" class="w-full h-auto hover:opacity-80 transition-opacity duration-300">
+          <a href="${item.website}" target="_blank" rel="noopener noreferrer">
+            <img src="${item.logo}" alt="${item.name}" class="w-full h-auto hover:opacity-80 transition-opacity duration-300 cursor-pointer">
+          </a>
         </div>
       `).join('')}
     </div>
   `;
 }
+
 
 function createContactForm() {
   return `

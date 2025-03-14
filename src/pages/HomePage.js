@@ -115,7 +115,7 @@ function createCoreValuesSection() {
         ${coreValues.map(value => `
           <div class="text-center">
             ${formatTitle(value.title)}
-            <p class="text-white font-normal">${value.text}</p>
+            <p class="text-white">${value.text}</p>
           </div>
         `).join('')}
       </div>
@@ -125,7 +125,7 @@ function createCoreValuesSection() {
 
 function createNewsCard(article) {
   return `
-    <div class="bg-black">
+    <div class="bg-black" style="background-color: #251e34">
       <img src="${article.image}" alt="${article.title}" class="w-full h-48 object-cover">
       <div class="p-6">
         <h3 class="text-white text-[18px] font-semibold mb-2">${article.title}</h3>

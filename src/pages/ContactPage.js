@@ -246,7 +246,9 @@ export function renderContactPage() {
             <span class="block -mt-2">OUR</span>
             <span class="block -mt-2">SOCIALS</span>
           </h2>
-          ${createSocialIcons()}
+          <div class="mt-8">
+            ${createSocialIcons()}
+          </div>
         </div>
       </section>
     </main>
