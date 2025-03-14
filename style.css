@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white font-roboto;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(120%); /* Increased from 100% to push it lower */
+    opacity: 0;
+  }
+  to {
+    transform: translateY(20%); /* Stays lower after animation */
+    opacity: 1;
+  }
+}
+
+.character-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-character.back-right {
+  right: 12%;  /* Close to the edge */
+  width: 28%;
+  bottom: -5%;  /* Moves it lower */
+  z-index: 1;
+  animation: slideUp 0.6s ease-out 0.4s forwards;
+}
+
+.about-character {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.about-character.back-left {
+  right: 30%;  /* Shifted slightly left but still on the right side */
+  width: 30%;
+  bottom: -5%;  /* Moves it lower */
+  z-index: 1;
+  animation: slideUp 0.6s ease-out 0.2s forwards;
+}
+
+.about-character.back-right {
+  right: 12%;  /* Close to the edge */
+  width: 28%;
+  bottom: -5%;  /* Moves it lower */
+  z-index: 1;
+  animation: slideUp 0.6s ease-out 0.4s forwards;
+}
+
+.about-character.front-left {
+  right: 42%;  /* Shifted slightly more to the right */
+  width: 25%;  /* Reduced size */
+  bottom: -10%;  /* Moves it lower */
+  z-index: 2;
+  animation: slideUp 0.6s ease-out 0.6s forwards;
+}
+
+
+.about-character.front-center {
+  right: 20%;  /* Centered within the right side */
+  width: 30%;
+  z-index: 2;
+  animation: slideUp 0.6s ease-out 0.8s forwards;
+}
+
+.about-character.front-right {
+  right: 0;  /* Fully on the right */
+  width: 35%;
+  z-index: 2;
+  animation: slideUp 0.6s ease-out 1s forwards;
+}
+
+.nav-link {
+  @apply text-white hover:text-gray-300 text-sm font-bold tracking-[0.2em] transition-colors duration-200;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Add styles for job description content */
+.prose h2 {
+  @apply text-2xl font-bold mb-4 mt-8 text-[#FFC900];
+}
+
+.prose p {
+  @apply mb-4 text-lg;
+}
+
+.prose ul {
+  @apply list-disc pl-6 mb-4 space-y-2;
+}
+
+.prose li {
+  @apply text-lg;
+}
+
+.hamburger-menu {
+  @apply flex flex-col justify-between w-8 h-7 cursor-pointer;
+}
+
+.hamburger-menu span {
+  @apply block w-full h-0.5 bg-white transition-all duration-300;
+}
+
+.hamburger-menu:hover span {
+  @apply bg-[#FFC900];
+}
+
+.hamburger-menu.active span:nth-child(1) {
+  @apply transform translate-y-3 rotate-45;
+}
+
+.hamburger-menu.active span:nth-child(2),
+.hamburger-menu.active span:nth-child(3) {
+  @apply opacity-0;
+}
+
+.hamburger-menu.active span:nth-child(4) {
+  @apply transform -translate-y-3 -rotate-45;
+}
+
+.mobile-menu {
+  @apply fixed top-[88px] right-0 w-64 h-screen bg-black/95 backdrop-blur-sm transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden;
+}
+
+.mobile-menu.active {
+  @apply translate-x-0;
+}
+
+.hero-title {
+  color: #FFC900;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 800;
+  line-height: 0.8;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
+}
+
+.hero-title span {
+  display: block;
+  line-height: 0.8;
+}
+
+.next-section-text {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", Sans-serif;
+  font-size: 1rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.ambition-title {
+  font-family: "Roboto", Sans-serif;
+  font-weight: 800;
+  line-height: 0.8;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 0.1em;
+  color: black;
+}
+
+.ambition-title span {
+  display: block;
+  line-height: 0.8;
+}
+
+.ambition-text {
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  max-width: 48rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.hero-video-container {
+  @apply absolute inset-0 w-full h-full overflow-hidden;
+  pointer-events: none;
+}
+
+.hero-video {
+  @apply w-full h-full;
+}
+
+.games-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-0;
+}
+
+.game-card {
+  @apply relative overflow-hidden cursor-pointer aspect-square;
+}
+
+.game-card-background {
+  @apply absolute inset-0 w-full h-full bg-cover bg-center transition-transform duration-700;
+}
+
+.game-card:hover .game-card-background {
+  @apply scale-110;
+}
+
+.game-card-overlay {
+  @apply absolute inset-0 flex items-center justify-center;
+}
+
+.game-card-logo {
+  @apply w-3/4 h-auto transform scale-100;
+}
+
+.game-card:hover .game-card-logo {
+  animation: logoHover 0.8s ease-in-out;
+}
+
+.load-more {
+  @apply px-16 py-5 bg-transparent border-2 border-white text-white text-base font-bold uppercase tracking-[0.2em] 
+         hover:bg-white hover:text-black transition-all duration-300;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-footer {
+  background-image: url('https://peterandsonsgames.com/wp-content/uploads/2023/08/Footer-image-main-03-03-2.png');
+  background-size: 50% 100%;
+  background-repeat: repeat-x;
+  @apply py-40;
+}
+
+.news-title-container {
+  background-size: 50% 100%;
+  background-repeat: repeat-x;
+}
+
+.hero-slider {
+  @apply flex transition-transform duration-500;
+}
+
+.hero-slide {
+  @apply w-full h-[600px] flex-shrink-0 relative;
+}
