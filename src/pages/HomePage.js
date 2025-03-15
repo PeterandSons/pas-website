@@ -55,7 +55,7 @@ function createHero() {
 
 function createNextSection() {
   return `
-    <section class="py-20 bg-black">
+    <section class="py-10 bg-black">
       <div class="container mx-auto px-12">
         <h2 class="hero-title mb-16">
           <span class="block">CREATE</span>
@@ -85,8 +85,9 @@ function createGamesSection(games) {
   const latestGames = games.slice(0, 3);
   
   return `
-    <section id="games" class="py-32">
-      <div class="container mx-auto px-4">
+    <section id="games" class="py-10">
+      <!-- <div class="container mx-auto px-4"> -->
+      <div class="w-full py-10">
         <div class="games-grid mb-16">
           ${latestGames.map(game => createGameCard(game)).join('')}
         </div>
@@ -110,12 +111,12 @@ function createCoreValuesSection() {
   };
 
   return `
-    <section class="py-20 bg-black">
-      <div class="container mx-auto px-12 grid grid-cols-2 lg:grid-cols-4 gap-8">
+    <section class="py-10 bg-black">
+      <div class="container mx-auto px-0 grid grid-cols-2 lg:grid-cols-4 gap-8">
         ${coreValues.map(value => `
           <div class="text-center">
             ${formatTitle(value.title)}
-            <p class="text-white">${value.text}</p>
+            <p class="text-white text-[14px]">${value.text}</p>
           </div>
         `).join('')}
       </div>
