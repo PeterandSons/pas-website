@@ -69,19 +69,3 @@ collections:
           - { name: "logo", label: "Logo", widget: "image" }
           - { name: "website", label: "Website", widget: "string" }
 
-  - name: "friends"
-    label: "Friends"
-    folder: "content/partners"
-    create: true
-    format: json
-    extension: "json"
-    slug: "{{title}}"
-    fields:
-      - { name: "title", label: "Title", widget: "string" }
-      - label: "Friends"
-        name: "friends"
-        widget: "list"
-        fields:
-          - { name: "name", label: "Friend Name", widget: "string" }
-          - { name: "logo", label: "Logo", widget: "image" }
-          - { name: "website", label: "Website", widget: "string" }
