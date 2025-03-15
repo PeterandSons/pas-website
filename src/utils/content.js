@@ -22,11 +22,11 @@ function initializeData() {
     // Process partners and friends
     Object.values(partnersContext).forEach(module => {
       const data = module.default || module;
-      if (data.partners) {
-        partners = data.partners;
+      if (data.title === "Partners" && data.partners) {
+        partners = data.partners; // Extract partners from partners.json
       }
-      if (data.friends) {
-        friends = data.friends;
+      if (data.title === "Friends" && data.partners) {
+        friends = data.partners; // Extract friends from friends.json
       }
     });
 
