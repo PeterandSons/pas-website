@@ -58,7 +58,7 @@ collections:
     create: true
     format: json
     extension: "json"
-    slug: "{{name}}"
+    slug: "{{title}}"
     fields:
       - { name: "title", label: "Title", widget: "string" }      
       - label: "Partners"
@@ -75,7 +75,7 @@ collections:
     create: true
     format: json
     extension: "json"
-    slug: "{{name}}"
+    slug: "{{title}}"
     fields:
       - { name: "title", label: "Title", widget: "string" }
       - label: "Friends"
