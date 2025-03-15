@@ -139,14 +139,18 @@ export function renderPartnersPage() {
               <img src="/uploads/White-1-1024x196.png" 
                    alt="Brand Assets" class="w-full h-auto">
             </div>
-            <div class="flex flex-col space-y-4">
-              <button class="w-full py-3 px-6 bg-black text-white border-2 border-white font-bold hover:bg-white hover:text-black transition-colors duration-300">
-                Brand Guidelines
-              </button>
-              <button class="w-full py-3 px-6 bg-black text-white border-2 border-white font-bold hover:bg-white hover:text-black transition-colors duration-300">
-                Brand Assets
-              </button>
-            </div>
+              <div class="flex flex-col space-y-4">
+                <a href="https://peterandsonsgames.com/wp-content/uploads/2023/11/PS-BrandBook.pdf" target="_blank" rel="noopener noreferrer">
+                  <button class="w-full py-3 px-6 bg-black text-white border-2 border-white font-bold hover:bg-white hover:text-black transition-colors duration-300">
+                    Brand Guidelines
+                  </button>
+                </a>
+                <a href="https://drive.google.com/drive/folders/1yPsrRrFZlnKQtVesPKCiCiF-UiboD9He" target="_blank" rel="noopener noreferrer">
+                  <button class="w-full py-3 px-6 bg-black text-white border-2 border-white font-bold hover:bg-white hover:text-black transition-colors duration-300">
+                    Brand Assets
+                  </button>
+                </a>
+              </div>
           </div>
         </div>
       </section>
